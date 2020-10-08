@@ -2,12 +2,30 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
 }
+.carousel-inner {
+  padding:7% 15%;;
+}
 .container-fluid {
   padding: 7% 15%;
 }
-
+#cta {
+  background-color: #ff4c68;
+  padding: 4% 15% 5%;
+  text-align: center;
+}
+.cta-h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.cta-button {
+  margin: 3%;
+}
 .download-button {
   margin: 5% 3% 5% 0;
+  padding: .5rem;
 }
 .features-icon {
   font-size: 65px;
@@ -18,12 +36,22 @@ body {
   color: #ff4c68;
 }
 #features {
+  position: relative;
   padding-top: 50px;
   text-align: center;
   color: #8f8f8f;
+  background-color: white;
 }
 .features-box {
   margin-bottom: 50px;
+}
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+}
+.footer-logo {
+  margin: 1.5%;
 }
 .header {
   font-size: 3rem;
@@ -43,11 +71,10 @@ h3 {
   color: black;
 }
 .iphone {
-  margin-left: 100px;
-  margin-bottom: -170px;
   transform: rotate(25deg);
+  right: 30%;
   width: 60%;
-  /* height: 60%; */
+  position: absolute;
 }
 .navbar {
     padding: 0 0 4.5rem;
@@ -73,8 +100,14 @@ h3 {
   width: 15%;
   margin: 20px 20px 50px;
 }
+#pricing {
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: white;
@@ -87,5 +120,15 @@ h3 {
 #title {
   background-color: #ff4c68;
   overflow: hidden;
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+@media (max-width: 1020px) {
+  .iphone {
+    position: static;
+    transform: rotate(0deg);
+  }
+  .header-row {
+    text-align: center;
+  }
 }
