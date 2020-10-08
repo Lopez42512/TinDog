@@ -9,7 +9,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
@@ -57,16 +57,23 @@
           <div class="row">
             <div class="col-lg-6">
               <h1 class="header">Meet new and interesting dogs nearby.</h1>
-              <button class="btn btn-dark btn-lg mt-4 mr-3" type="button">
-                <i class="fab fa-apple" style="margin-right: 10px;"></i>Download
+              <button class="btn btn-dark btn-lg download-button" type="button">
+                <i class="fab fa-apple" style="margin-right: 10px"></i>Download
               </button>
-              <button class="btn btn-outline-light btn-lg mt-4" type="button">
-                <i class="fab fa-google-play" style="margin-right: 5px;"></i>
+              <button
+                class="btn btn-outline-light btn-lg download-button"
+                type="button"
+              >
+                <i class="fab fa-google-play" style="margin-right: 5px"></i>
                 Download
               </button>
             </div>
             <div class="col-lg-6">
-              <img src="images/iphone6.png" alt="iphone-mockup" class="iphone"/>
+              <img
+                src="images/iphone6.png"
+                alt="iphone-mockup"
+                class="iphone"
+              />
             </div>
           </div>
         </div>
@@ -76,14 +83,25 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
-
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 features-box">
+            <i class="fas fa-check-circle features-icon"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+          </div>
+          <div class="col-lg-4 features-box">
+            <i class="fas fa-bullseye features-icon"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+          </div>
+          <div class="col-lg-4 features-box">
+            <i class="fas fa-heart features-icon"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find the love of your dog's life or your money back.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->

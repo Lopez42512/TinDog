@@ -1,8 +1,30 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 .container-fluid {
   padding: 3% 15%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.features-icon {
+  position: relative;
+  font-size: 50px;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+#features {
+  margin-top: 75px;
+  text-align: center;
+  color: #8f8f8f;
+}
+.features-box {
+  margin-bottom: 50px;
 }
 .header {
   font-size: 3rem;
@@ -10,12 +32,16 @@ body {
   font-weight: 900;
   color: white;
 }
-
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
 .iphone {
-  margin-bottom: -180px;
   margin-left: 100px;
+  margin-bottom: -170px;
   transform: rotate(25deg);
-  height: 500px;
+  width: 60%;
 }
 .navbar {
     padding: 0 0 4.5rem;
